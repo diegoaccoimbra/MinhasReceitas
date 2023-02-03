@@ -166,3 +166,62 @@ p.voltar {
     text-indent: 0em;
     text-align: center;
 }
+
+/*Configurações dos campos de texto da página de contato*/
+.campo input[type="text"], .campo input[type="email"], .campo textarea {
+    font: normal 1em var(--font-padrao);
+    padding: 5px 13px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: var(--color1);
+    border-width: 1px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.322);
+}
+
+fieldset {
+    border: 0;
+    padding-left: 50px;
+    margin: 15px auto;
+}
+
+.campo, .campo label{
+    padding: 5px;
+    display: block;   
+}
+
+.radioOption {
+    display: inline;
+}
+
+.radioOption input {
+    cursor: pointer;
+}
+
+.campo textarea {
+    width: 80%;
+}
+
+.campo input[type="text"], .campo input[type="email"] {
+    min-width: 250px;
+}
+
+/*Configurações do botão de enviar na página de contato*/
+#submit {
+    font: bold 1em var(--font-padrao);
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: var(--color1);
+    border-width: 1px;
+    background-color: var(--color3);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.37);
+}
+
+#submit:hover {
+    font-weight: bold;
+    color: var(--color2);
+    background-color: var(--color4);
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
