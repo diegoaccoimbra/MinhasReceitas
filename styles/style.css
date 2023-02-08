@@ -178,6 +178,7 @@ p.voltar {
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.322);
 }
 
+/*Configurações da tag fieldset*/
 fieldset {
     border: 0;
     margin: 15px auto;
@@ -185,6 +186,7 @@ fieldset {
     max-width: 320px;
 }
 
+/*Configurações dos campos de digitação e do rótulo deles*/
 .campo, .campo label{
     padding: 5px;
     display: flex;
@@ -192,22 +194,21 @@ fieldset {
     justify-content: center; 
 }
 
+/*Colocando os botões de radio na mesma linha*/
 .radioOption {
     display: inline;
 }
 
+/*Configurando pro cursor do mouse ficar com a "mão" quando posicionado em cima do botões de radio*/
 .radioOption input {
     cursor: pointer;
 }
 
+/*Configurações do campo de texto da mensagem*/
 .campo textarea {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.campo input[type="text"], .campo input[type="email"] {
-    min-width: 250px;
 }
 
 /*Configurações do botão de enviar na página de contato*/
@@ -222,6 +223,7 @@ fieldset {
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.37);
 }
 
+/*Configurações pro botão quando o cursor for posicionado em cima dele*/
 #submit:hover {
     font-weight: bold;
     color: var(--color2);
@@ -230,6 +232,7 @@ fieldset {
     cursor: pointer;
 }
 
+/*Centralizando o botão*/
 .botao {
     display: flex;
     justify-content: center;
