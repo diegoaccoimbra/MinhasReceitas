@@ -167,6 +167,38 @@ img{
     box-shadow: 1px 1px 3px #00000044;
 }
 
+/*Configurações das imagens que ficam na galeria da página inicial*/
+/*Configurando o container das imagens*/
+.galeria {
+    width: 100%;
+    padding: 15px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 40px;
+}
+
+/*Configurações de cada imagen*/
+.galeria a > img {
+    width: 100%;
+    max-width: 400px;
+    transition: 1s;
+}
+
+/*Configuração de cada imagem quando o cursor está em cima dela*/
+.galeria img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/*Ajustando a margin do título da receita*/
+.galeria h3 {
+    margin: 10px auto;
+}
+
 /*Configurações dos botões de voltar (parágrafos com a classe voltar)*/
 p.voltar {
     text-indent: 0em;
