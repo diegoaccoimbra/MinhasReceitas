@@ -76,7 +76,7 @@ main {
     max-width: 900px;
 
     background-color: var(--color4);
-    margin: 20px auto;
+    margin: 10px auto;
     padding: 10px 20px;
     border-radius: 10px;
     text-align: left;
@@ -110,6 +110,7 @@ main p {
     /*Espaço entre as linhas*/
     line-height: 1.5em;
     padding: 0px 20px;
+    text-align: justify;
 }
 
 /*Configurações das lista ordenadas e não ordenadas da main*/
