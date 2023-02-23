@@ -7,9 +7,9 @@
 :root {
     --color1: #0a0908;
     --color2: #22333b;
-    --color3: #ff8821;
+    --color3: #FF843D;
     --color4: #f2f4f3;
-    --color5: #5e503f;
+    --color5: #AD7048;
 
     --font-padrao: Arial, Helvetica, sans-serif;
     --font-titulo: 'Playfair Display', serif;
@@ -79,8 +79,8 @@ main {
     margin: 20px auto;
     padding: 10px 20px;
     border-radius: 10px;
-    text-align: justify;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: left;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 /*Configurações dos links dentro da main*/
@@ -120,7 +120,7 @@ main ul, ol {
 }
 
 main li {
-    padding-bottom: 5px;
+    padding-bottom: 15px;
 }
 
 /*Definindo as configurações do footer*/
@@ -153,12 +153,18 @@ footer a:hover {
 }
 
 /*Definindo as configurações das imagens*/
-img {
-    min-width: 300px;
-    max-width: 600px;
+/*A tag picture é um container da tag img*/
+picture {
+    width: 100%;
+}
+
+img{
+    width: 100%;
+    max-width: 700px;
     display: block;
     margin: auto;
     border-radius: 5px;
+    box-shadow: 1px 1px 3px #00000044;
 }
 
 /*Configurações dos botões de voltar (parágrafos com a classe voltar)*/
