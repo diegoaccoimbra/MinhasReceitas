@@ -113,6 +113,11 @@ main p {
     text-align: justify;
 }
 
+/*Configurando o parágrafo de apresentação da página inicial*/
+p.apresentacao {
+    margin-bottom: 40px;
+}
+
 /*Configurações das lista ordenadas e não ordenadas da main*/
 main ul, ol {
     line-height: 1.5em;
